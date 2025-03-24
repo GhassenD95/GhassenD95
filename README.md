@@ -42,10 +42,5 @@
 
 ###
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=GhassenD95&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false&order=2" height="150" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com?user=GhassenD95&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GhassenD95&radius=16&theme=dracula&area=true&order=5&line=#151A28&point=#151A28&title_color=#151A28&hide_border=false&hide_title=false&color=#151A28" height="290" alt="activity-graph graph"  />
-</div>
 
 
