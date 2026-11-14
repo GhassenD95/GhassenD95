@@ -1,32 +1,40 @@
 # Ghassen Dhaoui
 
-Software engineering student in Tunis (PFE 2026–2027). I like working on backend and AI systems where the hard part is getting the details right — things like matching data reliably, keeping a clear audit trail, or measuring whether an AI answer is actually grounded.
+Software engineering student in Tunis (PFE 2026–2027). I build backend and applied-AI systems for problems where correctness and trust matter — payments, audit evidence, and risk decisions.
 
-Open to PFE / internship opportunities in backend, data, and applied AI (fintech & RegTech problems especially).
-
----
-
-### Currently building
-
-A set of end-to-end projects (web app + API + workers + database), each built around a concrete engineering problem:
-
-1. **[Recon Ledger Workbench](https://github.com/GhassenD95/01-recon-ledger-workbench)** — matches records across sources (e.g. bank vs ledger). Focus: deterministic results (same input, same output), many-to-one/partial matches, versioned rules, and a review flow with explanations.
-2. **[Invoice & Spend Control](https://github.com/GhassenD95/02-invoice-spend-control)** — takes invoices/receipts from upload to approval. Focus: document extraction with confidence checks, 2/3-way matching, duplicate detection, and a clear approval workflow.
-3. **[Compliance Evidence Copilot](https://github.com/GhassenD95/03-compliance-evidence-copilot)** — tracks controls and evidence, and answers questions with citations to the source. Focus: grounded answers (or refusing when evidence is missing) backed by an evaluation set, not just a chat demo.
-4. **[Risk & Decisioning Console](https://github.com/GhassenD95/04-risk-decisioning-console)** — scores risk (e.g. payment delays) and routes cases for review. Focus: time-correct features, calibrated scores with reason codes, and monitoring for drift.
-5. **[Reliable Event Platform](https://github.com/GhassenD95/05-reliable-event-platform)** — delivers events/webhooks reliably between services. Focus: outbox + idempotent processing, retries/DLQ, safe replays, and observability.
-
-<sub>Design-first specs right now — building them out in depth.</sub>
+Targeting top-tier PFE/internship opportunities (fintech & beyond), including roles with international teams.
 
 ---
 
-### I usually work with
+### Flagship projects
 
-Python · FastAPI · PostgreSQL · SQL/SQLAlchemy · Redis · Docker · GitHub Actions · pytest · React/Next.js · applied ML/LLM (retrieval, evaluation)
+Four end-to-end products (web app + API + workers + database), each built around a hard engineering problem and measured with real proof (evals, tests, benchmarks).
 
-Also some experience with Java/Spring and distributed systems.
+**1. [Compliance Evidence & Audit Copilot](https://github.com/GhassenD95/01-compliance-evidence-copilot)** — controls & evidence management plus Q&A that answers with citations or refuses when evidence is missing.  
+*Focus:* traceability, grounded AI, and an evaluation suite that catches regressions. *(RegTech / audit — aligned with EY-style compliance work.)*
+
+**2. [Reliable Payments Event Platform](https://github.com/GhassenD95/02-reliable-payments-event-platform)** — moves payment/invoice events between services with webhooks, retries, and safe replays.  
+*Focus:* outbox + idempotent processing (no duplicates/loss), DLQ & replay, and operability/SLOs. *(Payments infrastructure / distributed systems.)*
+
+**3. [Risk & Decisioning Engine](https://github.com/GhassenD95/03-risk-decisioning-engine)** — scores risk, explains decisions with reason codes, and routes cases for review.  
+*Focus:* time-correct features, calibrated scores, and drift monitoring (not just a model notebook).*
+
+**4. [Payments Ops & Case Investigation Console](https://github.com/GhassenD95/04-payments-ops-case-console)** — a workspace to investigate payment/invoice exceptions over an event timeline and resolve cases with an audit trail.  
+*Focus:* correlation under ambiguity (many-to-one/partials), idempotent ingestion, and explainable resolutions.
+
+<sub>Spec-first and being built in depth — measured by tests, evals, and failure scenarios, not demos.</sub>
 
 ---
+
+### How I work
+
+- **Correctness you can check:** deterministic logic, idempotency, and audit trails for money/state-changing flows.
+- **AI with evidence:** retrieval/LLM components measured by eval sets (citations, refusal), not trusted blindly.
+- **Production-minded:** background jobs, observability, and failure handling (retries, DLQ, replay) designed in.
+
+### Toolkit
+
+Python · FastAPI · PostgreSQL · SQL/SQLAlchemy · Redis · Docker · GitHub Actions · pytest · React/Next.js · applied ML/LLM (retrieval, evaluation) · distributed-systems fundamentals (and some Java/Spring)
 
 <p align="center">
   <a href="https://github.com/GhassenD95">github.com/GhassenD95</a>
